@@ -1,0 +1,63 @@
+<table width="811" height="884" border="0" class="style12">
+         <tr>
+           <td width="305" rowspan="8">&nbsp; </td>
+           <td width="245"><span class="style23">First Name</span></td>
+           <td width="247" colspan="4"><p>&nbsp;</p>
+           <p>
+             <input type="text" name="txtfname"  value="<?php $_POST["txtfname"] ?>" />
+           </p></td>
+         </tr>
+         
+         <tr>
+           <td><span class="style23">Last Name</span></td>
+           <td colspan="4"><p>&nbsp;</p>
+           <p>
+             <input name="txtlname" type="text" value="<?php $_POST["txlfname"] ?>" />
+           </p></td>
+         </tr>
+         <tr>
+           <td><p>&nbsp;</p>
+           <p><span class="style23">Email Address</span></p></td>
+           <td colspan="4"><input type="text" name="txtaddress" value="<?php $_POST["txtaddress"] ?>"/></td>
+         </tr>
+         <tr>
+           <td><p>&nbsp;</p>
+           <p><span class="style23">Phone No </span></p></td>
+           <td colspan="4"><input type="text" name="txtno" value="<?php $_POST["txtno"] ?>" /></td>
+         </tr>
+         <tr>
+           <td><p class="style23">Appoinment Date </p>
+           <p class="style23">&nbsp;</p></td>
+           <td colspan="4"><input type="text" name="txtdate" value="<?php $_POST["txtdate"] ?>" /></td>
+         </tr>
+         <tr>
+           <td><p>&nbsp;</p>
+           <p>&nbsp;</p></td>
+           <td colspan="4"><select name="sex">
+             <option value="male" <?php  echo (isset($_POST['sex']) && $_POST['sex'] == "male") ? 'selected="selected"': ''; ?> >Male</option>
+             <option value="Female" <?php  echo (isset($_POST['sex']) && $_POST['sex'] == "Female") ? 'selected="selected"': ''; ?> >Female</option>
+             <option value="Child" <?php  echo (isset($_POST['sex']) && $_POST['sex'] == "Child") ? 'selected="selected"': ''; ?> >Child</option>
+           </select></td>
+         </tr>
+         <tr>
+           <td><span class="style23">Message</span></td>
+           <td colspan="4"><p>&nbsp;</p>
+           <p>
+             <input type="text" name="txtmessage" value="<?php $_POST["txtmessage"] ?>">
+           </p></td>
+         </tr>
+         
+         
+         <tr>
+           <td>&nbsp;</td>
+           <td height="42" colspan="4">
+             <label>
+               <input name="Submit" type="submit" value="Submit" />
+           </label>                    </td>
+         </tr>
+         <tr>
+           <td width="305">&nbsp;</td>
+           <td>&nbsp;</td>
+           <td height="15" colspan="4">&nbsp;</td>
+         </tr>
+       </table>
