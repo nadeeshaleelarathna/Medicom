@@ -1,0 +1,32 @@
+
+       <table width="811" height="285" border="0" class="style12">
+         <tr>
+           <td width="307" rowspan="7">&nbsp; </td>
+           <td width="94" height="42">&nbsp;</td>
+           <td width="153">&nbsp;</td>
+           <td width="69">&nbsp;</td>
+           <td width="166">&nbsp;</td>
+         </tr>
+         <tr>
+           <td height="42"><span class="style23">First Name </span></td>
+           <td><input type="text" name="txtfname"  value="<?php $_POST["txtfname"] ?>" /></td>
+           <td><span class="style23">Last Name</span></td>
+           <td><label>
+             <input name="txtlname" type="text" value="<?php $_POST["txlfname"] ?>" />
+           </label></td>
+         </tr>
+         <tr>
+           <td height="44"><span class="style23">Email Address </span></td>
+           <td>
+             <label>
+               <input type="text" name="txtaddress" value="<?php $_POST["txtaddress"] ?>"/>
+             </label>           </td>
+           <td><span class="style23">Phone No </span></td>
+           <td>
+             <label>
+               <input type="text" name="txtno" value="<?php $_POST["txtno"] ?>" />
+             </label>           </td>
+         </tr>
+         <tr>
+           <td height="42"><span class="style23">Appoinment Date </span></td>
+           <td>
