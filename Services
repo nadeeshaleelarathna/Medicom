@@ -1,0 +1,35 @@
+<div>
+								  <div>
+										<h4>Programs</h4>
+										<h3>This is just a place holder</h3>
+										<p>Our most important medical departments, but just a few of what our clinic offers: </p>
+									</div>
+									<div>
+										<h4>Services</h4>
+										<ul><li>
+										  <h3 class="style1">cardiothoracic Surgery</h3>
+										</li>
+											<li>
+											  <h3 class="style1">Cardiovascular Diseases</h3>
+										  </li>
+											<li>
+											  <h3 class="style1">General Surgery</h3>
+										  </li>
+											<li>
+											  <h3 class="style1">Consultative &amp; Diagnostic Medicine</h3>
+										  </li>
+									        <li>
+									          <h3 class="style1">Dermatology</h3>
+								          </li>
+								            <li>
+								              <h3 class="style1">Infectious Diseases</h3>
+							              </li>
+						                </ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
