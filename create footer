@@ -1,0 +1,36 @@
+<div>
+					<div>
+						<h4>Blog</h4>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.
+						</p>
+						<a href="blog.html">Go To Blog</a>
+					</div>
+					<div>
+						<h4>Links</h4>
+						<ul>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="programs.html">Programs</a>
+							</li>
+							<li>
+								<a href="about.html">About</a>
+							</li>
+							<li>
+								<a href="services.html">Services</a>
+							</li>
+							<li>
+								<a href="blog.html">Blog</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<div class="connect">
+						<h4>Keep In Touch</h4>
+						<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a> <a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a> <a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">google+</a>
+					</div>
+				</div>
